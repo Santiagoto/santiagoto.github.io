@@ -1,0 +1,120 @@
+
+body {
+    margin: 0;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.8)
+    )
+    ,url("../img/pexels-pixabay-326347.jpg");
+}
+
+html {
+    font-family:  sans-serif;
+}
+
+header {
+    background: rgb(30,30,30);
+}
+
+.promociones { 
+    margin: 0 auto;
+    padding: 0 .8;
+}
+
+@media screen and (min-width: 52em) {
+    .promociones { 
+        margin: 0 auto;
+        padding: 0 .8;
+    }
+} 
+
+.inicio {
+    margin: 0 0 1em;
+    padding: 0.8em 0;
+    color:rgb(247, 220, 111);
+    background-color: hsl(0, 0, 25%);
+    font-size: 3.8em;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background: url(../img/pexels-md-abdul-halim-2333293.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    animation: text 10.5s linear infinite;
+}
+
+@keyframes text {
+    from { background-position: 0% 50%;}
+    to {background-position: 100% 100%;}
+    
+}
+
+.promo-content { 
+    padding: 1.4em;
+    color: rgb(255, 255, 255);
+}
+
+.promo-content h2{
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-family: 'Oswald';
+    color:rgb(247, 220, 111);
+    text-align:center;
+}
+
+.promo-content p {
+    font-size: 95%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+.promo {
+    background: rgb(30,30,30);
+    margin-bottom: 1em;
+    width: 32%;
+    border-radius: 15px;
+    transition: all 300ms;
+    margin: 2% 9%;
+}
+
+.promo:hover {
+    transform: scale(1.15);
+}
+
+.carta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer {
+    background-color: rgba(230, 230, 230)
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: rgb(247, 220, 111);
+}
+
+footer .container {
+    height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

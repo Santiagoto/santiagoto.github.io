@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e98d84ef64.js" crossorigin="anonymous"></script>
+
+    <title>Bienvenido a mi formulario</title>
+</head>
+<body>
+        <div class="container-form sign-up">
+            <div class="bienvenido">
+                <div class="mensaje">
+                    <h2>Bienvenido a PolloStore</h2>
+                    <p> Si ya tienes una cuenta por favor inicia sesión aquí</p>
+                    <Button class="sign-up-btn">Iniciar Sesión</Button>
+                </div>
+            </div>
+            <form class="formulario" action="" name="formulario" method="get">
+                <h2 class="crear-cuenta">Crear una cuenta</h2>
+                <div class="iconos">
+                    <div class="border-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="border-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="border-icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div> 
+                </div>
+                <p class="cuenta-gratis">Crear una cuenta gratis</p>
+                <input type="text" name="nombre"  id="nombre" maxlength="30"   placeholder="nombre">
+                <input type="email" name="email"  id="email" maxlength="40" placeholder="email">  
+                <input type="password" name="contraseña" id="contraseña" maxlength="10"  placeholder="contraseña">
+                <input type="submit"  id="btn" name="btn" value="Registrarse">
+                
+
+            </form>
+        </div>
+        <div class="container-form sign-in">
+            <form class="formulario" action="" name="formulario" method="get">
+                <h2 class="crear-cuenta">Iniciar sesión</h2>
+                <div class="iconos">
+                    <div class="border-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="border-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="border-icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div> 
+                </div>
+                <p class="cuenta-gratis">Ingrese su Email y Contraseña</p>
+                <input type="email" name="email"  id="email" maxlength="40" placeholder="email">  
+                <input type="password" name="contraseña" id="contraseña" maxlength="10"  placeholder="contraseña">
+                <input type="submit"  id="btn" name="btn" value="Iniciar Sesión">
+            </form>
+            <div class="bienvenido">
+                <div class="mensaje">
+                    <h2>Bienvenido de nuevo</h2>
+                    <p> Si aun no tienes una cuenta por favor regístrese aquí</p>
+                    <Button class="sign-in-btn">Registrarse</Button>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="../JS/js.js"></script>
+</body>
+</html>
